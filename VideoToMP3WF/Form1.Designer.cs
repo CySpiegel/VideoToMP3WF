@@ -32,6 +32,7 @@
             this.youtubeLink = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.StatusLabel = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -63,17 +64,26 @@
             // StatusLabel
             // 
             this.StatusLabel.AutoSize = true;
-            this.StatusLabel.Location = new System.Drawing.Point(157, 70);
+            this.StatusLabel.Location = new System.Drawing.Point(181, 68);
             this.StatusLabel.Name = "StatusLabel";
-            this.StatusLabel.Size = new System.Drawing.Size(38, 15);
+            this.StatusLabel.Size = new System.Drawing.Size(0, 15);
             this.StatusLabel.TabIndex = 3;
-            this.StatusLabel.Text = "label2";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(136, 68);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(42, 15);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "Status:";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label2);
             this.Controls.Add(this.StatusLabel);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.youtubeLink);
@@ -91,5 +101,6 @@
         private TextBox youtubeLink;
         private Button button1;
         private Label StatusLabel;
+        private Label label2;
     }
 }
