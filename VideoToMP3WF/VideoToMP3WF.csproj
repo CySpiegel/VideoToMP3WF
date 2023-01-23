@@ -8,4 +8,10 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MediaToolkit" Version="1.1.0.1" />
+    <PackageReference Include="Twilio" Version="6.2.1" />
+    <PackageReference Include="VideoLibrary" Version="3.2.3" />
+  </ItemGroup>
+
 </Project>
